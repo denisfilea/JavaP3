@@ -3,14 +3,14 @@ public class Apple extends Fruit implements SeedRemovable {
         super(weight, sugar, water, color);
     }
 
-    boolean seeds = true;
+    public boolean seeds = true;
 
     public boolean hasSeeds(){
         return seeds;
     }
 
     public void removeSeeds(){
-        System.out.println("Seeds have been removed.");
+        System.out.println("Apple seeds have been removed.");
         seeds = false;
     }
 

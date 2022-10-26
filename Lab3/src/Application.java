@@ -28,4 +28,16 @@ public class Application {
         return sugar;
     }
 
+    public void prepareFruit(Fruit[] fruits){
+        for(Fruit fruit : fruits){
+            if(fruit instanceof SeedRemovable){
+                ((SeedRemovable) fruit).removeSeeds();
+            }
+            if(fruit instanceof Peelable){
+                ((Peelable) fruit).peelOff();
+            }
+        }
+        System.out.println("Fruit salad prepared!");
+    }
+
 }
