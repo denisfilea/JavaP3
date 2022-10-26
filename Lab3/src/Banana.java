@@ -5,10 +5,9 @@ public class Banana extends Fruit implements Peelable{
 
     boolean peel = true;
 
-     public boolean hasPeel(){
+    public boolean hasPeel(){
         return peel;
      }
-
      public void peelOff(){
          System.out.println("Peeled the banana");
          peel = false;
