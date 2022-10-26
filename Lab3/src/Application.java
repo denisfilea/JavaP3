@@ -37,7 +37,7 @@ public class Application {
                 ((Peelable) fruit).peelOff();
             }
         }
-        System.out.println("Fruit salad prepared!");
+        System.out.println("Fruits have been prepared!");
     }
 
 }
