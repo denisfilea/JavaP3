@@ -15,7 +15,7 @@ public class Main {
         ArrayList<Fruit> fruits;
         fruits = input.readFruit();
 
-        //app.prepareFruit(fruits);
+        app.prepareFruit(fruits);
         fruitMap = app.countFruit(fruits);
         //System.out.println(fruitMap);
 
